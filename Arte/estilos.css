@@ -226,8 +226,10 @@ body {
 
     .art-container .cards-container .art-card .back-face h2 {
         margin-bottom: 0.3rem;
+        user-select: none;
     }
     .art-container .cards-container .art-card .back-face p {
         font-size: 1.2rem;
+        user-select: none;
     }
 }
