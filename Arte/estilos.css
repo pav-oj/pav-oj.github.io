@@ -164,7 +164,6 @@ body {
     cursor: pointer;
 }
 
-
 .art-container .cards-container .art-card:hover .front-face {
     transform: perspective(500px) rotateX(180deg);
 }
@@ -231,5 +230,35 @@ body {
     .art-container .cards-container .art-card .back-face p {
         font-size: 1.2rem;
         user-select: none;
+    }
+}
+
+@media (max-width: 275px) {
+    .art-container .cards-container .art-card {
+        width: 16.5rem;
+        height: 12rem;
+    }
+
+    .art-container .cards-container .art-card:hover{
+        transform: scale(0.8);
+    }
+
+    .art-container .cards-container .art-card .back-face h2 {
+        margin-bottom: 0.3rem;
+        user-select: none;
+        font-size: 2rem;
+    }
+    .art-container .cards-container .art-card .back-face p {
+        font-size: 0.9rem;
+        user-select: none;
+    }
+
+    .art-container .cards-container .art-card .back-face a {
+        bottom: 0;
+        transform: scale(0.6);
+    } 
+    .art-container .cards-container .art-card .back-face a button {
+        bottom: 0;
+
     }
 }
