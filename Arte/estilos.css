@@ -63,8 +63,10 @@ body {
     left: 0;
     right: 0;
     width: 90%;
+    height: 1000px;
     height: auto;
     padding-bottom: 5rem;
+    background-color: rgba(0, 217, 116, 0.162);
 }
 
 .art-container .cards-container {
