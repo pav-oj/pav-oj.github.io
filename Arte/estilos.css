@@ -215,12 +215,19 @@ body {
     }
 
     .art-container .cards-container .art-card:hover{
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
 
     .in--proccess {
         transform: rotate(-50deg) scale(0.6); 
         top: 1.4rem;
         left: -5.5rem;
+    }
+
+    .art-container .cards-container .art-card .back-face h2 {
+        margin-bottom: 0.3rem;
+    }
+    .art-container .cards-container .art-card .back-face p {
+        font-size: 1.2rem;
     }
 }
